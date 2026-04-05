@@ -1,0 +1,16 @@
+{
+  "name": "parcel-vanilla-starter",
+  "private": true,
+  "version": "0.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.0"
+  },
+  "dependencies": {
+    "truecropper": "^1.0.3"
+  }
+}

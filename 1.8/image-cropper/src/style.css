@@ -1,0 +1,69 @@
+html {
+  color-scheme: light dark;
+  font-family: system-ui;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #2659ff;
+  font-weight: bold;
+  font-size: 3rem; 
+  margin: 0;
+  text-align: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.btn {
+  background-color: #2659ff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: monospace;
+  color: #d0d9f7;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active {
+  background-color: #004085;
+}
+
+#downloadBtn {
+  display: none;
+}
+
+#image, #imagePreview {
+  border:#292929 2px solid;
+  max-width: 45vw;
+  max-height: 60vh;
+  display: none;
+}
+
+.container {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

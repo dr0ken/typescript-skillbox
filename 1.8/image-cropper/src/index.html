@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Cropper</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="title">Image Cropper</h1>
+    <div class="container">
+      <div class="image-container truecropper">
+        <img id="image" src="#" alt="image for cropping">
+      </div>
+      <img id="imagePreview" src="#" alt="cropped image preview">
+    </div>
+
+    <div class="container">
+      <label class="btn">
+        <input id="fileInput" type="file" accept="image/*">upload image
+      </label>
+      <button class="btn" id="downloadBtn">download result</button>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
