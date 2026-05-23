@@ -1,0 +1,50 @@
+body {
+  background-color: #f6f8fa;
+}
+
+h1 {
+  color: #0366d6;
+  text-decoration: underline;
+}
+
+pre {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+pre:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+blockquote {
+  border-left: 4px solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em;
+  margin-left: 0;
+}
+
+.alert {
+  padding: 10px;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.spoiler {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #e2e3e5;
+  border-left: 4px solid #adb5bd;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.spoiler details[open] > *:not(summary) {
+  animation: fadeIn 0.5s;
+}
